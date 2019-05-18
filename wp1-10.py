@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 import math
 import re 
 import csv
+import sqlite3
 
 
 def read_log_file(log_file):
@@ -109,6 +110,36 @@ def write_frag_csv_file(log_file_pathname, frags):
             writer.writerow(time + frag[1:])
 
 
+#--------------------------
+#--------------------------
+#--------------------------
+#--------------------------
+def insert_match_to_sqlite(file_pathname, start_time, end_time, game_mode, map_name, frags):
+    '''
+    wp25
+    '''
+    conn = sqlite3.connect(file_pathname)
+    conn.execute("INSERT INTO match (start_time, end_time, game_mode, map_name) \
+        VALUES (?, ?, ?, ?)", (start_time, end_time, game_mode, map_name))
+    conn.close()
+
+
+def insert_frags_to_sqlite(connection, match_id, frags):
+    '''
+    wp26
+    '''
+    for frag in frags:
+        frag_time = frag[0]
+        killer_name = frag[1]
+        victem_name = None
+        weapon_code = None
+        if len(frag) != 2:
+            victem_name = frag[3]
+            weapon_code = frag[4]
+
+        querry = "INSERT INTO match_flag (match_id, frag_time, killer_name, victim_name, weapon_code) "
+        connection.execute(querry + "VALUES (?, ?, ?, ?)", (match_id, frag_time, killer_name, victem_name, weapon_code))
+    
 
 log_data = read_log_file('/home/tiit/farcry-data/farcry_data_science_introduction/logs/log04.txt')
 frags = parse_frags(log_data)
