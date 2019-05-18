@@ -886,7 +886,7 @@ Script System Initialization
 <53:17> == Player:                                                                    ==
 <53:17> ================================================================================
 <53:17> Player: lamonthe
-<53:17>    nKill=13
+<53:17>    nKill=13s
 <53:17>    nHeadshot=3
 <53:17>    nBulletShot=0
 <53:17>    nSelfKill=1

@@ -776,95 +776,95 @@ Script System Initialization
 <39:39> WARNING: Connectivity warning: there are 3 open edges (2594 closed, 1731 faces, 0 planes, 0 vertices)
 <39:41> <Lua> fluffy killed lamonthe with P90
 <39:46> <Lua> fluffy killed Reaper with P90
-<39:50> WARNING: [AIWARNING] Entity Mike Killah failed to select goal pipe h_gunner_fire
-<39:50> WARNING: [AIWARNING] Entity Mike Killah failed to select goal pipe h_gunner_fire
-<39:56> WARNING: [AIWARNING] Entity Mike Killah failed to select goal pipe h_gunner_fire
-<39:56> WARNING: [AIWARNING] Entity Mike Killah failed to select goal pipe h_gunner_fire
-<40:00> WARNING: [AIWARNING] Entity Mike Killah failed to select goal pipe h_gunner_fire
-<40:00> WARNING: [AIWARNING] Entity Mike Killah failed to select goal pipe h_gunner_fire
-<40:04> <Lua> lamonthe killed Mike Killah with AG36
-<40:16> <Lua> Scrap killed Mike Killah with Falcon
+<39:50> WARNING: [AIWARNING] Entity Mike_Killah failed to select goal pipe h_gunner_fire
+<39:50> WARNING: [AIWARNING] Entity Mike_Killah failed to select goal pipe h_gunner_fire
+<39:56> WARNING: [AIWARNING] Entity Mike_Killah failed to select goal pipe h_gunner_fire
+<39:56> WARNING: [AIWARNING] Entity Mike_Killah failed to select goal pipe h_gunner_fire
+<40:00> WARNING: [AIWARNING] Entity Mike_Killah failed to select goal pipe h_gunner_fire
+<40:00> WARNING: [AIWARNING] Entity Mike_Killah failed to select goal pipe h_gunner_fire
+<40:04> <Lua> lamonthe killed Mike_Killah with AG36
+<40:16> <Lua> Scrap killed Mike_Killah with Falcon
 <40:19> <Lua> lamonthe killed Scrap with AG36Grenade
-<40:28> <Lua> lamonthe killed Mike Killah with AG36
+<40:28> <Lua> lamonthe killed Mike_Killah with AG36
 <40:57> <Lua> lamonthe killed Scrap with AG36
 <41:14> <Lua> lamonthe killed Scrap with AG36Grenade
-<41:21> <Lua> Mike Killah killed lamonthe with M4
-<41:42> <Lua> Mike Killah killed lamonthe with AG36Grenade
+<41:21> <Lua> Mike_Killah killed lamonthe with M4
+<41:42> <Lua> Mike_Killah killed lamonthe with AG36Grenade
 <41:45> <Lua> Scrap killed fluffy with M249
-<42:09> <Lua> lamonthe killed Mike Killah with Rocket
+<42:09> <Lua> lamonthe killed Mike_Killah with Rocket
 <42:15> <Lua> Scrap killed fluffy with MG
-<42:18> <Lua> Mike Killah killed lamonthe with AG36Grenade
-<42:23> <Lua> Refactorer killed Mike Killah with M249
+<42:18> <Lua> Mike_Killah killed lamonthe with AG36Grenade
+<42:23> <Lua> Refactorer killed Mike_Killah with M249
 <42:30> <Lua> cyap killed Refactorer with AG36
-<42:37> <Lua> cyap killed Mike Killah with AG36Grenade
+<42:37> <Lua> cyap killed Mike_Killah with AG36Grenade
 <42:43> <Lua> Scrap killed lamonthe with MG
 <42:44> <Lua> fluffy killed Scrap with AG36
 <42:56> <Lua> Reaper killed fluffy with SniperRifle
 <43:01> <Lua> cyap killed Scrap with AG36Grenade
 <43:12> <Lua> cyap killed fluffy with AG36Grenade
 <43:22> <Lua> cyap killed fluffy with AG36Grenade
-<43:31> <Lua> Mike Killah killed cyap with M4
+<43:31> <Lua> Mike_Killah killed cyap with M4
 <43:36> <Lua> Scrap killed lamonthe with M249
 <43:41> <Lua> fluffy killed Reaper with OICW
-<43:42> <Lua> Refactorer killed Mike Killah with VehicleRocket
+<43:42> <Lua> Refactorer killed Mike_Killah with VehicleRocket
 <43:48> <Lua> Scrap killed fluffy with MG
-<43:56> <Lua> Mike Killah killed Refactorer with M4
+<43:56> <Lua> Mike_Killah killed Refactorer with M4
 <43:58> <Lua> Scrap killed Reaper with MG
 <43:59> <Lua> fluffy killed Scrap with Falcon
 <44:07> <Lua> Scrap killed fluffy with Falcon
 <44:08> <Lua> Refactorer killed Scrap with VehicleRocket
 <44:08> <Lua> lamonthe killed cyap with Rocket
-<44:11> <Lua> Mike Killah killed cynthia with AG36Grenade
-<44:14> <Lua> Mike Killah killed fluffy with AG36Grenade
+<44:11> <Lua> Mike_Killah killed cynthia with AG36Grenade
+<44:14> <Lua> Mike_Killah killed fluffy with AG36Grenade
 <44:18> <Lua> lamonthe killed cyap with Rocket
-<44:18> <Lua> Mike Killah killed Scrap with AG36Grenade
-<44:23> <Lua> Mike Killah killed fluffy with AG36Grenade
+<44:18> <Lua> Mike_Killah killed Scrap with AG36Grenade
+<44:23> <Lua> Mike_Killah killed fluffy with AG36Grenade
 <44:24> <Lua> cyap killed cynthia with Machete
-<44:26> <Lua> Scrap killed Mike Killah with Falcon
+<44:26> <Lua> Scrap killed Mike_Killah with Falcon
 <44:30> <Lua> lamonthe killed fluffy with Rocket
 <44:30> <Lua> lamonthe killed itself
 <44:34> <Lua> cynthia killed Scrap with Falcon
 <44:45> <Lua> cynthia killed fluffy with Falcon
 <44:48> <Lua> lamonthe killed itself
-<44:49> <Lua> Scrap killed Mike Killah with AG36
+<44:49> <Lua> Scrap killed Mike_Killah with AG36
 <44:50> <Lua> Refactorer killed Reaper with VehicleRocket
 <44:58> <Lua> fluffy killed cyap with Machete
 <45:00> <Lua> lamonthe killed cynthia with Machete
-<45:03> <Lua> cyap killed Mike Killah with Machete
+<45:03> <Lua> cyap killed Mike_Killah with Machete
 <45:07> <Lua> Refactorer killed lamonthe with VehicleRocket
-<45:09> <Lua> Mike Killah killed Reaper with Machete
+<45:09> <Lua> Mike_Killah killed Reaper with Machete
 <45:19> <Lua> Scrap killed Reaper with AG36
 <45:25> <Lua> fluffy killed Refactorer with M249
 <45:27> <Lua> cyap killed Scrap with Shotgun
-<45:36> <Lua> fluffy killed Mike Killah with M249
+<45:36> <Lua> fluffy killed Mike_Killah with M249
 <45:42> <Lua> fluffy killed Scrap with M249
 <45:43> <Lua> lamonthe killed itself
 <45:43> <Lua> lamonthe killed Refactorer with OICWGrenade
-<45:49> <Lua> Mike Killah killed Reaper with Rocket
+<45:49> <Lua> Mike_Killah killed Reaper with Rocket
 <45:53> <Lua> cyap killed Scrap with AG36
 <45:58> <Lua> lamonthe killed Reaper with MG
 <45:59> <Lua> Refactorer killed lamonthe with P90
 <46:04> <Lua> Scrap killed Refactorer with Falcon
-<46:06> <Lua> Mike Killah killed cyap with Rocket
-<46:08> <Lua> fluffy killed Mike Killah with M249
+<46:06> <Lua> Mike_Killah killed cyap with Rocket
+<46:08> <Lua> fluffy killed Mike_Killah with M249
 <46:12> <Lua> Scrap killed Refactorer with MG
 <46:14> <Lua> Reaper killed cyap with Falcon
 <46:15> <Lua> fluffy killed cynthia with M249
 <46:20> <Lua> Reaper killed cyap with Falcon
-<46:20> <Lua> fluffy killed Mike Killah with M249
-<46:29> <Lua> Mike Killah killed Refactorer with Machete
-<46:34> <Lua> Scrap killed Mike Killah with MG
+<46:20> <Lua> fluffy killed Mike_Killah with M249
+<46:29> <Lua> Mike_Killah killed Refactorer with Machete
+<46:34> <Lua> Scrap killed Mike_Killah with MG
 <46:35> <Lua> Reaper killed lamonthe with M4
 <46:35> <Lua> lamonthe killed Refactorer with Rocket
 <46:35> <Lua> lamonthe killed Reaper with Rocket
 <46:42> <Lua> Refactorer killed cynthia with Machete
-<46:42> <Lua> Mike Killah killed Scrap with M4
+<46:42> <Lua> Mike_Killah killed Scrap with M4
 <46:48> <Lua> Reaper killed Scrap with Falcon
 <46:49> <Lua> fluffy killed Reaper with M249
 <46:49> <Lua> cyap killed cynthia with M4
 <46:51> <Lua> lamonthe killed Refactorer with AG36
-<46:55> <Lua> Mike Killah killed fluffy with MG
-<46:56> <Lua> lamonthe killed Mike Killah with AG36
+<46:55> <Lua> Mike_Killah killed fluffy with MG
+<46:56> <Lua> lamonthe killed Mike_Killah with AG36
 <47:03> <Lua> Refactorer killed Scrap with Falcon
 <47:05> <Lua> Reaper killed cynthia with Falcon
 <47:14> <Lua> cyap killed Scrap with AG36Grenade
@@ -874,168 +874,168 @@ Script System Initialization
 <47:25> <Lua> Refactorer killed fluffy with OICWGrenade
 <47:30> <Lua> lamonthe killed Reaper with Machete
 <47:35> <Lua> Scrap killed cyap with M4
-<47:37> <Lua> Mike Killah killed fluffy with MG
-<47:39> <Lua> Mike Killah killed Reaper with MG
+<47:37> <Lua> Mike_Killah killed fluffy with MG
+<47:39> <Lua> Mike_Killah killed Reaper with MG
 <47:42> <Lua> Scrap killed cynthia with M4
 <47:45> <Lua> Refactorer killed lamonthe with OICW
 <47:45> <Lua> fluffy killed cyap with Falcon
-<47:46> <Lua> Mike Killah killed fluffy with MG
+<47:46> <Lua> Mike_Killah killed fluffy with MG
 <47:50> <Lua> Refactorer killed Reaper with OICW
 <47:52> <Lua> Scrap killed cyap with M4
-<47:58> <Lua> cynthia killed Mike Killah with MP5
+<47:58> <Lua> cynthia killed Mike_Killah with MP5
 <48:02> <Lua> Scrap killed lamonthe with M4
-<48:05> <Lua> Mike Killah killed Reaper with Falcon
+<48:05> <Lua> Mike_Killah killed Reaper with Falcon
 <48:13> <Lua> Refactorer killed fluffy with OICWGrenade
 <48:13> <Lua> lamonthe killed Refactorer with Machete
-<48:14> <Lua> Mike Killah killed Reaper with M4
-<48:18> <Lua> Mike Killah killed Scrap with M4
-<48:24> <Lua> Refactorer killed Mike Killah with Rocket
+<48:14> <Lua> Mike_Killah killed Reaper with M4
+<48:18> <Lua> Mike_Killah killed Scrap with M4
+<48:24> <Lua> Refactorer killed Mike_Killah with Rocket
 <48:26> <Lua> cyap killed fluffy with VehicleRocket
-<48:36> <Lua> Refactorer killed Mike Killah with Rocket
+<48:36> <Lua> Refactorer killed Mike_Killah with Rocket
 <48:36> <Lua> cyap killed Scrap with VehicleRocket
 <48:40> <Lua> cynthia killed Reaper with MP5
 <48:45> <Lua> Refactorer killed Scrap with Rocket
 <48:46> <Lua> fluffy killed Refactorer with AG36
-<49:01> <Lua> Mike Killah killed Refactorer with OICW
+<49:01> <Lua> Mike_Killah killed Refactorer with OICW
 <49:02> <Lua> cyap killed fluffy with VehicleRocket
 <49:06> <Lua> Refactorer killed Reaper with Falcon
-<49:12> <Lua> Mike Killah killed cynthia with OICWGrenade
+<49:12> <Lua> Mike_Killah killed cynthia with OICWGrenade
 <49:14> <Lua> lamonthe killed fluffy with M249
-<49:25> <Lua> fluffy killed Mike Killah with OICW
+<49:25> <Lua> fluffy killed Mike_Killah with OICW
 <49:27> <Lua> Reaper killed Scrap with Shotgun
 <49:31> <Lua> Reaper killed Refactorer with Shotgun
-<49:36> <Lua> Mike Killah killed Reaper with AG36Grenade
+<49:36> <Lua> Mike_Killah killed Reaper with AG36Grenade
 <49:38> <Lua> cyap killed cynthia with VehicleRocket
 <49:39> <Lua> fluffy killed lamonthe with OICW
-<49:44> <Lua> Mike Killah killed Scrap with AG36Grenade
-<49:44> <Lua> Scrap killed Mike Killah with Rocket
+<49:44> <Lua> Mike_Killah killed Scrap with AG36Grenade
+<49:44> <Lua> Scrap killed Mike_Killah with Rocket
 <49:50> <Lua> cynthia killed Reaper with Falcon
-<49:54> <Lua> Mike Killah killed lamonthe with M4
-<50:00> <Lua> cyap killed Mike Killah with VehicleRocket
+<49:54> <Lua> Mike_Killah killed lamonthe with M4
+<50:00> <Lua> cyap killed Mike_Killah with VehicleRocket
 <50:01> <Lua> Reaper killed cynthia with Falcon
 <50:06> <Lua> Refactorer killed Scrap with VehicleRocket
 <50:13> <Lua> Refactorer killed lamonthe with VehicleRocket
-<50:20> <Lua> Mike Killah killed Refactorer with MG
-<50:21> <Lua> Refactorer killed Mike Killah with VehicleRocket
+<50:20> <Lua> Mike_Killah killed Refactorer with MG
+<50:21> <Lua> Refactorer killed Mike_Killah with VehicleRocket
 <50:24> <Lua> fluffy killed Scrap with OICW
-<50:27> <Lua> Mike Killah killed fluffy with Falcon
+<50:27> <Lua> Mike_Killah killed fluffy with Falcon
 <50:41> <Lua> Refactorer killed Scrap with AG36Grenade
 <50:43> <Lua> fluffy killed Refactorer with Rocket
-<50:47> <Lua> Scrap killed Mike Killah with Falcon
+<50:47> <Lua> Scrap killed Mike_Killah with Falcon
 <50:48> <Lua> Refactorer killed lamonthe with Machete
-<50:56> <Lua> Mike Killah killed cynthia with M249
-<51:01> <Lua> Mike Killah killed Scrap with M249
+<50:56> <Lua> Mike_Killah killed cynthia with M249
+<51:01> <Lua> Mike_Killah killed Scrap with M249
 <51:03> <Lua> fluffy killed lamonthe with Rocket
 <51:05> <Lua> cynthia killed Refactorer with Falcon
-<51:10> <Lua> Mike Killah killed Reaper with OICWGrenade
+<51:10> <Lua> Mike_Killah killed Reaper with OICWGrenade
 <51:16> <Lua> fluffy killed itself
 <51:16> <Lua> fluffy killed Reaper with Rocket
 <51:17> <Lua> Refactorer killed cynthia with Rocket
-<51:34> <Lua> Reaper killed Mike Killah with P90
+<51:34> <Lua> Reaper killed Mike_Killah with P90
 <51:37> <Lua> fluffy killed Refactorer with Rocket
 <51:39> <Lua> Scrap killed cynthia with M249
 <51:41> <Lua> lamonthe killed papazark with HandGrenade
 <51:42> <Lua> Refactorer killed Reaper with Falcon
 <51:49> <Lua> Scrap killed Refactorer with M249
-<51:50> <Lua> Reaper killed Mike Killah with Falcon
+<51:50> <Lua> Reaper killed Mike_Killah with Falcon
 <51:53> <Lua> fluffy killed Reaper with Rocket
 <51:54> <Lua> papazark killed fluffy with Falcon
 <51:57> <Lua> cyap killed Scrap with VehicleRocket
-<51:58> <Lua> Mike Killah killed Refactorer with Falcon
+<51:58> <Lua> Mike_Killah killed Refactorer with Falcon
 <52:04> <Lua> lamonthe killed Scrap with M4
-<52:06> <Lua> Refactorer killed Mike Killah with Machete
+<52:06> <Lua> Refactorer killed Mike_Killah with Machete
 <52:12> <Lua> cyap killed Scrap with VehicleRocket
 <52:14> <Lua> Refactorer killed fluffy with MG
 <52:16> <Lua> lamonthe killed papazark with M4
 <52:26> <Lua> Reaper killed fluffy with Falcon
-<52:27> <Lua> Mike Killah killed papazark with M4
+<52:27> <Lua> Mike_Killah killed papazark with M4
 <52:27> <Lua> cynthia killed Refactorer with AG36
 <52:29> <Lua> cyap killed Reaper with VehicleRocket
 <52:39> <Lua> fluffy killed Reaper with Shotgun
 <52:39> <Lua> Refactorer killed cynthia with OICW
 <52:42> <Lua> Scrap killed Refactorer with M249
 <52:42> <Lua> Refactorer killed Scrap with OICWGrenade
-<52:43> <Lua> cyap killed Mike Killah with VehicleRocket
+<52:43> <Lua> cyap killed Mike_Killah with VehicleRocket
 <52:47> <Lua> lamonthe killed Reaper with Rocket
-<52:50> <Lua> Mike Killah killed cyap with AG36
+<52:50> <Lua> Mike_Killah killed cyap with AG36
 <52:54> <Lua> Refactorer killed Reaper with M249
 <52:55> <Lua> Scrap killed Refactorer with AG36
 <52:57> <Lua> cyap killed fluffy with Machete
-<53:00> <Lua> Mike Killah killed cynthia with AG36Grenade
-<53:01> <Lua> lamonthe killed Mike Killah with Rocket
+<53:00> <Lua> Mike_Killah killed cynthia with AG36Grenade
+<53:01> <Lua> lamonthe killed Mike_Killah with Rocket
 <53:05> <Lua> papazark killed fluffy with M4
 <53:06> <Lua> cyap killed Refactorer with M4
 <53:06> <Lua> Reaper killed itself
 <53:07> <Lua> lamonthe killed cyap with Rocket
 <53:14> <Lua> Reaper killed Scrap with Falcon
 <53:16> <Lua> fluffy killed lamonthe with Shotgun
-<53:19> <Lua> Scrap killed Mike Killah with Falcon
-<53:24> <Lua> Mike Killah killed fluffy with Falcon
-<53:30> <Lua> Refactorer killed Mike Killah with AG36Grenade
+<53:19> <Lua> Scrap killed Mike_Killah with Falcon
+<53:24> <Lua> Mike_Killah killed fluffy with Falcon
+<53:30> <Lua> Refactorer killed Mike_Killah with AG36Grenade
 <53:32> <Lua> cyap killed Scrap with OICW
-<53:36> <Lua> Mike Killah killed papazark with Falcon
+<53:36> <Lua> Mike_Killah killed papazark with Falcon
 <53:41> <Lua> Scrap killed fluffy with Falcon
 <53:43> <Lua> lamonthe killed cyap with SniperRifle
-<53:43> <Lua> Mike Killah killed Scrap with M4
+<53:43> <Lua> Mike_Killah killed Scrap with M4
 <53:48> <Lua> Scrap killed Refactorer with Falcon
-<53:51> <Lua> Mike Killah killed fluffy with M4
+<53:51> <Lua> Mike_Killah killed fluffy with M4
 <53:55> <Lua> Scrap killed cyap with Falcon
 <53:57> <Lua> cynthia killed Refactorer with M249
-<54:04> <Lua> Mike Killah killed Reaper with MG
+<54:04> <Lua> Mike_Killah killed Reaper with MG
 <54:07> <Lua> cyap killed Refactorer with M4
 <54:13> <Lua> cynthia killed fluffy with M249
 <54:13> <Lua> Scrap killed papazark with Falcon
 <54:15> <Lua> Refactorer killed cyap with Falcon
-<54:19> <Lua> Mike Killah killed Reaper with MG
+<54:19> <Lua> Mike_Killah killed Reaper with MG
 <54:23> <Lua> cyap killed Scrap with Machete
 <54:26> <Lua> lamonthe killed cyap with SniperRifle
-<54:27> <Lua> fluffy killed Mike Killah with M4
+<54:27> <Lua> fluffy killed Mike_Killah with M4
 <54:33> <Lua> lamonthe killed Scrap with SniperRifle
 <54:33> <Lua> cyap killed papazark with Machete
-<54:37> <Lua> Mike Killah killed cynthia with Falcon
-<54:38> <Lua> lamonthe killed Mike Killah with SniperRifle
+<54:37> <Lua> Mike_Killah killed cynthia with Falcon
+<54:38> <Lua> lamonthe killed Mike_Killah with SniperRifle
 <54:38> <Lua> cyap killed Refactorer with Falcon
 <54:41> <Lua> Scrap killed cyap with M4
 <54:43> <Lua> Refactorer killed fluffy with Machete
-<54:45> <Lua> Mike Killah killed Scrap with Falcon
-<54:54> <Lua> cynthia killed Mike Killah with Falcon
+<54:45> <Lua> Mike_Killah killed Scrap with Falcon
+<54:54> <Lua> cynthia killed Mike_Killah with Falcon
 <55:00> <Lua> Scrap killed cynthia with Falcon
 <55:01> <Lua> cyap killed Reaper with Falcon
-<55:03> <Lua> Refactorer killed Mike Killah with MG
+<55:03> <Lua> Refactorer killed Mike_Killah with MG
 <55:07> <Lua> lamonthe killed fluffy with SniperRifle
-<55:13> <Lua> Mike Killah killed Scrap with Falcon
-<55:17> <Lua> papazark killed Mike Killah with AG36Grenade
+<55:13> <Lua> Mike_Killah killed Scrap with Falcon
+<55:17> <Lua> papazark killed Mike_Killah with AG36Grenade
 <55:20> <Lua> Reaper killed cynthia with AG36
 <55:22> <Lua> fluffy killed Scrap with P90
 <55:28> <Lua> Refactorer killed fluffy with MG
-<55:30> <Lua> Refactorer killed Mike Killah with MG
+<55:30> <Lua> Refactorer killed Mike_Killah with MG
 <55:32> <Lua> Scrap killed papazark with M4
 <55:32> <Lua> cynthia killed Refactorer with Falcon
 <55:40> <Lua> fluffy killed cynthia with Falcon
 <55:41> <Lua> Scrap killed papazark with M4
 <55:42> <Lua> cyap killed Refactorer with M249
-<55:44> <Lua> Mike Killah killed Scrap with AG36Grenade
-<55:51> <Lua> Mike Killah killed papazark with AG36Grenade
-<55:51> <Lua> Mike Killah killed Refactorer with AG36Grenade
+<55:44> <Lua> Mike_Killah killed Scrap with AG36Grenade
+<55:51> <Lua> Mike_Killah killed papazark with AG36Grenade
+<55:51> <Lua> Mike_Killah killed Refactorer with AG36Grenade
 <55:53> <Lua> cyap killed cynthia with M249
 <55:55> <Lua> Scrap killed cyap with M249
 <55:59> <Lua> fluffy killed papazark with MG
 <56:00> <Lua> Reaper killed fluffy with AG36
-<56:01> <Lua> Mike Killah killed Refactorer with AG36Grenade
+<56:01> <Lua> Mike_Killah killed Refactorer with AG36Grenade
 <56:05> <Lua> papazark killed Scrap with Machete
-<56:06> <Lua> Mike Killah killed fluffy with AG36Grenade
+<56:06> <Lua> Mike_Killah killed fluffy with AG36Grenade
 <56:07> <Lua> Refactorer killed Reaper with AG36Grenade
-<56:09> <Lua> cyap killed Mike Killah with AG36Grenade
+<56:09> <Lua> cyap killed Mike_Killah with AG36Grenade
 <56:14> <Lua> cynthia killed Reaper with Falcon
-<56:20> <Lua> Mike Killah killed cyap with HandGrenade
+<56:20> <Lua> Mike_Killah killed cyap with HandGrenade
 <56:23> <Lua> papazark killed lamonthe with VehicleRocket
-<56:24> <Lua> Mike Killah killed Scrap with Falcon
+<56:24> <Lua> Mike_Killah killed Scrap with Falcon
 <56:27> <Lua> cyap killed cynthia with Machete
 <56:33> <Lua> fluffy killed Scrap with M249
 <56:44> <Lua> cynthia killed lamonthe with Falcon
 <56:44> <Lua> Scrap killed fluffy with OICW
 <56:54> <Lua> papazark killed cynthia with VehicleRocket
-<56:57> <Lua> Mike Killah killed Refactorer with M4
+<56:57> <Lua> Mike_Killah killed Refactorer with M4
 <56:59> <Lua> lamonthe killed fluffy with Rocket
 <57:02> <Lua> Scrap killed papazark with M249
 <57:02> <Lua> papazark killed Scrap with VehicleRocket
@@ -1064,7 +1064,7 @@ Script System Initialization
 <57:24>    nBulletShot=0
 <57:24>    nSelfKill=0
 <57:24>    nBulletHit=0
-<57:24> Player: Mike Killah
+<57:24> Player: Mike_Killah
 <57:24>    nKill=52
 <57:24>    nHeadshot=4
 <57:24>    nBulletShot=0

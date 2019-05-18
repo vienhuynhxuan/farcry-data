@@ -746,19 +746,19 @@ Script System Initialization
 <22:09> Loading ...s\characters\pmodels\hero\hero_mp.ccg
 <22:09> WARNING: Connectivity warning: there are 1 open edges (3550 closed, 2367 faces, 0 planes, 0 vertices)
 <22:54> <Lua> cyap killed cynthia with M4
-<23:55> <Lua> cyap killed Jack The Ripper with VehicleRocket
+<23:55> <Lua> cyap killed Jack_The_Ripper with VehicleRocket
 <24:48> <Lua> cynthia killed cyap with MG
 <25:06> <Lua> cyap killed cynthia with M4
 <25:27> <Lua> cyap killed cynthia with M4
-<25:38> <Lua> cyap killed Jack The Ripper with Machete
-<25:49> <Lua> cyap killed Jack The Ripper with M4
-<26:22> <Lua> cyap killed Jack The Ripper with SniperRifle
-<26:53> <Lua> cyap killed Jack The Ripper with SniperRifle
-<27:10> <Lua> cyap killed Jack The Ripper with M4
-<27:26> <Lua> cyap killed Jack The Ripper with M4
+<25:38> <Lua> cyap killed Jack_The_Ripper with Machete
+<25:49> <Lua> cyap killed Jack_The_Ripper with M4
+<26:22> <Lua> cyap killed Jack_The_Ripper with SniperRifle
+<26:53> <Lua> cyap killed Jack_The_Ripper with SniperRifle
+<27:10> <Lua> cyap killed Jack_The_Ripper with M4
+<27:26> <Lua> cyap killed Jack_The_Ripper with M4
 <27:46> <Lua> cyap killed cynthia with M4
-<28:02> <Lua> cynthia killed Jack The Ripper with Falcon
-<28:09> <Lua> Jack The Ripper killed cyap with Falcon
+<28:02> <Lua> cynthia killed Jack_The_Ripper with Falcon
+<28:09> <Lua> Jack_The_Ripper killed cyap with Falcon
 <28:40> <Lua> cyap killed cynthia with M4
 <29:19> <Lua> cyap killed cynthia with M4
 <30:07> <Lua> cyap killed cynthia with Rocket
@@ -770,21 +770,21 @@ Script System Initialization
 <32:50> <Lua> cyap killed cynthia with AG36Grenade
 <33:04> <Lua> cyap killed cynthia with AG36Grenade
 <33:32> <Lua> cyap killed cynthia with AG36Grenade
-<34:35> <Lua> Jack The Ripper killed itself
+<34:35> <Lua> Jack_The_Ripper killed itself
 <34:52> <Lua> cyap killed cynthia with AG36
-<35:01> <Lua> Jack The Ripper killed cynthia with Rocket
-<35:36> <Lua> cyap killed Jack The Ripper with AG36Grenade
+<35:01> <Lua> Jack_The_Ripper killed cynthia with Rocket
+<35:36> <Lua> cyap killed Jack_The_Ripper with AG36Grenade
 <35:41> <Lua> cyap killed cynthia with AG36Grenade
-<36:28> <Lua> cyap killed Jack The Ripper with AG36Grenade
+<36:28> <Lua> cyap killed Jack_The_Ripper with AG36Grenade
 <36:39> <Lua> Refactorer killed cyap with AG36
-<36:44> <Lua> Refactorer killed Jack The Ripper with AG36
+<36:44> <Lua> Refactorer killed Jack_The_Ripper with AG36
 <36:51> <Lua> Refactorer killed cyap with AG36
-<37:02> <Lua> Refactorer killed Jack The Ripper with AG36
-<37:11> <Lua> Refactorer killed Jack The Ripper with AG36
+<37:02> <Lua> Refactorer killed Jack_The_Ripper with AG36
+<37:11> <Lua> Refactorer killed Jack_The_Ripper with AG36
 <37:16> <Lua> cyap killed Refactorer with M4
-<37:25> <Lua> cynthia killed Jack The Ripper with OICW
-<37:38> <Lua> cynthia killed Jack The Ripper with OICW
-<37:55> <Lua> Jack The Ripper killed itself
+<37:25> <Lua> cynthia killed Jack_The_Ripper with OICW
+<37:38> <Lua> cynthia killed Jack_The_Ripper with OICW
+<37:55> <Lua> Jack_The_Ripper killed itself
 <38:01> <Lua> cyap killed cynthia with OICW
 <38:12> <Lua> cyap killed cynthia with OICWGrenade
 <38:18> ERROR: $3#SCRIPT ERROR File: =C, Function: _ERRORMESSAGE,
