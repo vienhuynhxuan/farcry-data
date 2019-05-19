@@ -492,7 +492,8 @@ Script System Initialization
 <18:09> Loading Objects\outdoor\towers\aircontrol_tower.cgf
 <18:09> Brushes loaded: 28 models, 219 instances, 0 custom materials
 <18:09> Loading lightmaps ...
-<18:09> WARNING: Error: CBrush::SetLightmap: Object at position (967.289551, 1055.383911, 19.111288) has texture mismatch (6120 coordinates supplied, 6900 required)
+<18:09> WARNING: Error: CBrush::SetLightmap: Object at position (967.289551, 1055.383911, 19.111288) has texture mismatch (6120 coordinates supplied, 6900 required)
+
 <18:09>  [AISYSTEM] Initialization started.
 <18:09>  [AISYSTEM] Initialization finished.
 <18:09> Loading Objects\Weapons\shells\snipershell.cgf
