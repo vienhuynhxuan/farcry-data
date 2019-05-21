@@ -201,17 +201,47 @@ def insert_frags_to_sqlite(connection, match_id, frags):
     cursor = connection.cursor()
     cursor.executemany("INSERT INTO match_frag (match_id, frag_time, killer_name, victim_name, weapon_code) VALUES (?, ?, ?, ?, ?)", beauty_frags)  
 
-path = '/home/tiit/farcry-data/farcry_data_science_introduction/logs/log0'
-properties = ('localhost', 'farcry', 'postgres', '123456')
-for i in range(10):
-    f = path + str(i) + '.txt'
-    log_data = read_log_file(f)
-    log_start_time = parse_log_start_time(log_data)
-    game_mode, map_name = parse_match_mode_and_map(log_data)
-    frags = parse_frags(log_data)
-    start_time, end_time = parse_game_session_start_and_end_times(log_data, False)
 
-    insert_match_to_postgresql(properties, start_time, end_time, game_mode, map_name, frags)
+def calculate_serial_killers(frags):
+    longest_kill = {}
+    temp = {}
+    for frag in frags:
+        if frag[2] not in longest_kill:
+            longest_kill[frag[2]] = [(frag[1], frag[3], frag[4])]
+        elif last_killer == frag[2]:
+            longest_kill[frag[2]].append((frag[1], frag[3], frag[4]))
+        else 
+            if len(longest_kill[frag[2]]) > 1:
+                temp[frag[2]] = longest_kill[frag[2]]
+        last_killer = frag[0]
+
+    for key, value in temp.items():
+        if len(longest_kill[key]) < len(value):
+            longest_kill[key] = value
+
+    return longest_kill         
+
+
+log_data = read_log_file('./logs/log08.txt')
+frags = parse_frags(log_data)
+serial_killers = calculate_serial_killers(frags)
+for player_name, kill_series in serial_killers.items():
+    print('[%s]' % player_name)
+    print('\n'.join([', '.join(([str(e) for e in kill]))
+        for kill in kill_series]))
+
+
+# path = '/home/tiit/farcry-data/farcry_data_science_introduction/logs/log0'
+# properties = ('localhost', 'farcry', 'postgres', '123456')
+# for i in range(10):
+#     f = path + str(i) + '.txt'
+#     log_data = read_log_file(f)
+#     log_start_time = parse_log_start_time(log_data)
+#     game_mode, map_name = parse_match_mode_and_map(log_data)
+#     frags = parse_frags(log_data)
+#     start_time, end_time = parse_game_session_start_and_end_times(log_data, False)
+
+#     insert_match_to_postgresql(properties, start_time, end_time, game_mode, map_name, frags)
 
 # conn = sqlite3.connect('/home/tiit/farcry-data/farcry.db')
 # c = conn.cursor()
