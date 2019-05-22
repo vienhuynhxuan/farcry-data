@@ -205,26 +205,65 @@ def insert_frags_to_sqlite(connection, match_id, frags):
 def calculate_serial_killers(frags):
     longest_kill = {}
     temp = {}
+    label_last_lose = []   
+
     for frag in frags:
-        if frag[2] not in longest_kill:
-            longest_kill[frag[2]] = [(frag[1], frag[3], frag[4])]
-        elif last_killer == frag[2]:
-            longest_kill[frag[2]].append((frag[1], frag[3], frag[4]))
-        else 
-            if len(longest_kill[frag[2]]) > 1:
-                temp[frag[2]] = longest_kill[frag[2]]
-        last_killer = frag[0]
+        if len(frag) == 4:
+            if frag[2] in longest_kill and frag[2] not in label_last_lose:
+                label_last_lose.append(frag[2])
+            if frag[1] not in longest_kill:
+                longest_kill[frag[1]] = [(frag[0], frag[2], frag[3])]
+            elif frag[1] not in label_last_lose:
+                longest_kill[frag[1]].append((frag[0], frag[2], frag[3]))
+            else:
+                temp[frag[1]] = longest_kill[frag[1]]
+                longest_kill[frag[1]] = [(frag[0], frag[2], frag[3])]                
+                label_last_lose.remove(frag[1])
 
     for key, value in temp.items():
         if len(longest_kill[key]) < len(value):
             longest_kill[key] = value
-
     return longest_kill         
 
 
-log_data = read_log_file('./logs/log08.txt')
+def calculate_serial_losers(frags):
+    longest_lose = {}
+    temp = {}
+    label_last_kill = []   
+
+    for frag in frags:
+        if len(frag) == 4:
+            if frag[1] in longest_lose and frag[1] not in label_last_kill:
+                label_last_kill.append(frag[1])
+            if frag[2] not in longest_lose:
+                longest_lose[frag[2]] = [( frag[1], frag[3])]
+            elif frag[2] not in label_last_kill:
+                longest_lose[frag[2]].append(( frag[1], frag[3]))
+            else:
+                if frag[2] in temp and len(temp[frag[2]]) < len(longest_lose[frag[2]]):
+                    temp[frag[2]] = longest_lose[frag[2]]
+                longest_lose[frag[2]] = [( frag[1], frag[3])]                
+                label_last_kill.remove(frag[2])
+        print(longest_lose)
+        print(label_last_kill)
+        print(temp)
+        print('------------')
+
+    for key, value in temp.items():
+        if len(longest_lose[key]) < len(value):
+            longest_lose[key] = value
+    return longest_lose         
+
+
+log_data = read_log_file('/home/tiit/farcry-data/requirement/log08.txt')
 frags = parse_frags(log_data)
-serial_killers = calculate_serial_killers(frags)
+x = []
+for i in frags:
+    if len(i) == 4:
+        if(i[2] == 'shogun' or i[1] == 'shogun'):
+            x.append(i)
+
+serial_killers = calculate_serial_losers(x)
 for player_name, kill_series in serial_killers.items():
     print('[%s]' % player_name)
     print('\n'.join([', '.join(([str(e) for e in kill]))
